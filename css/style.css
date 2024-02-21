@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2;    
+}
+
+.container {
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/candle1.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.intro-image__text a {
+    background-color: #53849b86;
+    border: 2px solid #5d3e21a8;
+    color: #e1dfd9;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #e28743;
+    color: #2F4F4F;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 250px;
+    margin-top: -5rem;
+    padding: 0 15rem;  
+    clip-path: polygon(51% 30%, 100% 1%, 100% 43%, 100% 100%, 68% 100%, 32% 100%, 0 100%, 0% 43%, 0 0);
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.intro-text__textbox p {
+    letter-spacing: 1px;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('../img/candle2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;     
+}
+
+.packaging-image__text a {
+    background-color: #8c5c1e9a;
+    border: 2px solid #312612;
+    color: #e2d4b3;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out; 
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.packaging-text {
+    background-color: #eab676;
+    color: #800000;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 250px;
+    padding: 8rem 15rem;   
+}
+
+.packaging_text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem; 
+}
+
+.packaging_text__textbox p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../img/candle3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    background-color: #635f51a2;
+    border: 2px solid #2b2922;
+    color: #cfc8b8;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out; 
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color: #556B2F;    
+    color: #635f51;
+    font-size: 2rem;
+    height: 200px;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: rgb(170, 170, 143);
+    text-decoration: none;
+}
+
+.footer ul li:hover, .footer ul li a:hover {
+    color: rgb(198, 117, 117);
+    transform: scale(1.2);
+}
+
+.footer p {
+    color: rgb(170, 170, 143);
+}
