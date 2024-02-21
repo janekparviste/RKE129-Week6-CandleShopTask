@@ -19,7 +19,7 @@ body {
 
 .intro-image {
     background-attachment: fixed;
-    background-image: url('../img/candle1.jpg');
+    background-image: linear-gradient(to bottom right, #ffffff6a, #43222274),url('../img/candle1.jpg');
     background-size: cover;
     background-position: bottom;
     height: 600px;
@@ -42,6 +42,11 @@ body {
 
 .intro-image__text a:hover {
     transform: scale(1.2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.intro-image__text a:active {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .intro-text {
@@ -61,6 +66,7 @@ body {
     text-transform: uppercase;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    text-shadow: 0 0 3px #f0eaea, 0 0 5px #f4e6ee;
 }
 
 .intro-text__textbox p {
@@ -92,6 +98,11 @@ body {
 
 .packaging-image__text a:hover {
     transform: scale(1.2);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.packaging-image__text a:active {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .packaging-text {
@@ -107,6 +118,7 @@ body {
 .packaging_text__textbox h3 {
     font-size: 2rem;
     text-transform: uppercase;
+    text-shadow: 0 0 3px #f2d5d5, 0 0 5px #f2dae8; 
     margin-bottom: 1rem; 
 }
 
@@ -140,6 +152,11 @@ body {
 
 .tutorials-image__text a:hover {
     transform: scale(1.2);
+    box-shadow: 0 1rem 2rem rgba(148, 140, 140, 0.15);
+}
+
+.tutorials-image__text a:active {
+    box-shadow: 0 0.5rem 1rem rgba(120, 107, 107, 0.15);
 }
 
 .footer {
