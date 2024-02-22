@@ -22,7 +22,7 @@ body {
     background-image: linear-gradient(to bottom right, #ffffff6a, #43222274),url('../img/candle1.jpg');
     background-size: cover;
     background-position: bottom;
-    height: 600px;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;    
@@ -58,20 +58,24 @@ body {
     height: 250px;
     margin-top: -5rem;
     padding: 0 15rem;  
-    clip-path: polygon(51% 30%, 100% 1%, 100% 43%, 100% 100%, 68% 100%, 32% 100%, 0 100%, 0% 43%, 0 0);
+    clip-path: polygon(54% 19%, 100% 0, 100% 43%, 100% 100%, 68% 100%, 32% 100%, 0 100%, 0% 43%, 0 0);
+}
+
+.intro-text__textbox {
+    width: 75%;
 }
 
 .intro-text__textbox h3 {
     font-size: 2rem;
     text-transform: uppercase;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 3rem;
     text-shadow: 0 0 3px #f0eaea, 0 0 5px #f4e6ee;
 }
 
 .intro-text__textbox p {
     font-size: 1.2rem;
     letter-spacing: 1px;
+    margin-bottom: 1rem;
 }
 
 .packaging-image {
@@ -112,20 +116,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;    
-    height: 250px;
-    padding: 8rem 15rem;   
+    height: 300px;
+    padding: 0 15rem;   
+}
+
+.packaging_text__textbox {
+    width: 75%;
 }
 
 .packaging_text__textbox h3 {
     font-size: 2rem;
     text-transform: uppercase;
     text-shadow: 0 0 3px #f2d5d5, 0 0 5px #f2dae8; 
-    margin-bottom: 1rem; 
+    /*margin-bottom: 1rem; */
+    margin-top: 1rem;
 }
 
 .packaging_text__textbox p {
     font-size: 1.2rem;
     letter-spacing: 1px;
+    margin-bottom: 2rem;
 }
 
 .tutorials-image {
